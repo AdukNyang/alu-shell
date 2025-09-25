@@ -1,2 +1,2 @@
-# alu-shell
-This is my repository for my intranet assignment
+#0-iam_betty
+#switches the current user to betty 'using' the command 'su'

@@ -1,2 +1,2 @@
-#0-iam_betty
-#switches the current user to betty 'using' the command 'su'
+#0-hello_world
+#created a script: echo "Hello,World"

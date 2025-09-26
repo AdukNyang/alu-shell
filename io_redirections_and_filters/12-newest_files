@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt --time-style=long-iso | grep '^-' | head -n 10 | whilecut -d ' '-f9-
+ls -tp | grep -v / | head -n 10

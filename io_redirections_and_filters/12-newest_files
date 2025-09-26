@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | grep '^-' -n 10 | awk '{print $9}'
+ls -lt --time-style=long-iso | grep '^-' | head -n 10 | whilecut -d ' '-f9-

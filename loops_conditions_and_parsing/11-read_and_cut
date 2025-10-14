@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script to display the the content of the file from directory /etc/passwd
+# Displays username, other user data and home the home directory from /etc/passwd
 
 while IFS=: read -r user pass uid gid info home shell
 do

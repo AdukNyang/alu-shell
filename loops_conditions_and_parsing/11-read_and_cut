@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Script to display the the content of the file from directory /etc/passwd
+
+while IFS=: read -r user pass uid gid info home shell
+do
+  echo "$user - $home - $shell"
+done < /etc/passwd

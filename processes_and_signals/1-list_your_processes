@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Dislpays list of currently running directory, shows all processes for users including those which might not have TTY
+#Displays in a user-oriented format and shows hierarchy
+
+ps -a -x -u -f

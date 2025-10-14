@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays content of current directory after the first dash (-), not showing hidden files
+
+for file in *; do
+  name="${file#*-}"
+  echo "$name"
+done

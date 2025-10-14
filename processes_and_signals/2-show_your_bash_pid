@@ -1,5 +1,4 @@
-#!/urs/bin/env bash
-#This script extends previous exercise command and displays line containing the word bash. Which allows one to easily get the PID of your Bash process.
+#This script extends previous exercise command and displays line containing the word bash. Which allows one to easily get the PID of your Bash procesis.
 #You cannot use pgrep
 #shellcheck disable=SC2009
 

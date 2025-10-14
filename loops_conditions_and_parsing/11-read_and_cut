@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Displays username, other user data and home the home directory from /etc/passwd
+# Displays username, home directory, and login shell from /etc/passwd
 
 while IFS=: read -r user pass uid gid info home shell
 do

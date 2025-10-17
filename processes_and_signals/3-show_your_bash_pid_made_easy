@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Displays PID and process name of processes containing "bash"
-grep -l bash /proc/*/comm 2>/dev/null | cut -d/ -f3 | while read pid; do
+grep -l bash /proc/*/comm 2>/dev/null | cut -d/ -f3 | while read -r pid; do
     echo "$pid bash"
 done
